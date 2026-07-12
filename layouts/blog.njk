@@ -1,11 +1,17 @@
-.text-justify {
-    text-align: justify;
-}
+---
+layout: base.njk
+---
 
-.paragraph-size-33 {
-    margin-inline-start: 33%;
-}
+{% block title %}
+{{ title or "Blog" }}
+{% endblock %}
 
-.text-align-last-right {
-    text-align-last: right;
-}
+{% block extraCss %}
+<link rel="stylesheet" href="/assets/css/blog.css">
+{% endblock %}
+
+{% block body %}
+<article class="blog-post">
+    {{ content | safe }}
+</article>
+{% endblock %}
