@@ -1,21 +1,60 @@
+{#
+========================================================
+
+Arquivo:
+layouts/base.njk
+
+Objetivo:
+Layout base de todo o projeto.
+
+Este arquivo contém apenas a estrutura comum
+de todas as páginas.
+
+Layouts especializados (como blog.njk)
+devem herdar deste arquivo.
+
+A documentação correspondente estará em:
+docs/03-layout-base.md
+
+========================================================
+#}
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{% block title %}Meu site{% endblock %}</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>
+        {% block title %}
+            Meu Site
+        {% endblock %}
+    </title>
 
-    {% block extraCss %}{% endblock %}
+    <link
+        rel="stylesheet"
+        href="/assets/css/style.css">
+
+    {% block extraCss %}
+    {% endblock %}
+
 </head>
 
 <body>
 
     {% block body %}
-        {{ content | safe }}
+
+        <main>
+
+            {{ content | safe }}
+
+        </main>
+
     {% endblock %}
 
 </body>
