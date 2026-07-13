@@ -1,17 +1,25 @@
----
-layout: base.njk
----
+{% extends "base.njk" %}
 
 {% block title %}
-{{ title or "Blog" }}
+    {{ title }}
 {% endblock %}
 
 {% block extraCss %}
-<link rel="stylesheet" href="/assets/css/blog.css">
+
+<link
+    rel="stylesheet"
+    href="/assets/css/blog.css">
+
 {% endblock %}
 
 {% block body %}
+
 <article class="blog-post">
+
+    <h1>{{ title }}</h1>
+
     {{ content | safe }}
+
 </article>
+
 {% endblock %}
