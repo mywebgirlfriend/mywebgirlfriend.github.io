@@ -33,16 +33,21 @@ herdam deste arquivo.
         content="width=device-width, initial-scale=1.0">
 
     <title>
+
         {% block title %}
+
             {{ title or "Meu Site" }}
+
         {% endblock %}
+
     </title>
 
     <link
         rel="stylesheet"
         href="/assets/css/style.css">
 
-    {% block extraCss %}{% endblock %}
+    {% block extraCss %}
+    {% endblock %}
 
 </head>
 
@@ -81,32 +86,28 @@ herdam deste arquivo.
         {% block body %}
 
             {% block pageContent %}
+
                 {{ content | safe }}
+
             {% endblock %}
 
         {% endblock %}
 
         {% if page.url != "/" %}
 
-        <footer class="page-footer">
+            <footer class="page-footer">
 
-            {% block pageFooterDivider %}
+                <p>
 
-                <hr class="page-footer-divider">
+                    <a href="/">
 
-            {% endblock %}
+                        ← Back to Home
 
-            <p>
+                    </a>
 
-                <a href="/">
+                </p>
 
-                    ← Back to Home
-
-                </a>
-
-            </p>
-
-        </footer>
+            </footer>
 
         {% endif %}
 
