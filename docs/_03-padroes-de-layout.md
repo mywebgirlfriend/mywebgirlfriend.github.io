@@ -62,6 +62,19 @@ layouts/base.njk
 
 Toda página publicada utiliza esse layout direta ou indiretamente.
 
+## Rodapé global
+
+O layout base é responsável pelo rodapé comum do site.
+
+Atualmente ele contém:
+
+* separador visual;
+* botão "← Back to Home".
+
+O rodapé é exibido automaticamente em todas as páginas, exceto na Home.
+
+Nenhum layout especializado deve duplicar essa funcionalidade.
+
 ---
 
 ## Responsabilidades
@@ -119,6 +132,18 @@ content/blog/posts/*.md
 representam os artigos individuais.
 
 Todos os artigos herdam automaticamente o `blog.njk`.
+## Navegação dos artigos
+
+O `blog.njk` é responsável pela experiência de leitura dos artigos.
+
+Entre suas responsabilidades estão:
+
+* exibição da data de publicação;
+* título do artigo;
+* separadores visuais do artigo;
+* navegação automática entre artigos (Previous / Next).
+
+Esses elementos pertencem exclusivamente aos artigos e não devem aparecer na página principal do Blog nem nas demais seções do site.
 
 ---
 
