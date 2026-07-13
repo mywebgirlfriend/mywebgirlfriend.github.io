@@ -12,6 +12,9 @@
 
 {% block pageContent %}
 
+{% set previousPost = collections.blog | getPreviousCollectionItem %}
+{% set nextPost = collections.blog | getNextCollectionItem %}
+
 <p class="post-date">
 
     {{ date }}
@@ -31,5 +34,39 @@
     {{ content | safe }}
 
 </article>
+
+<hr>
+
+<nav class="post-navigation">
+
+    <div>
+
+        {% if previousPost %}
+
+            <a href="{{ previousPost.url }}">
+
+                ← Previous
+
+            </a>
+
+        {% endif %}
+
+    </div>
+
+    <div>
+
+        {% if nextPost %}
+
+            <a href="{{ nextPost.url }}">
+
+                Next →
+
+            </a>
+
+        {% endif %}
+
+    </div>
+
+</nav>
 
 {% endblock %}
