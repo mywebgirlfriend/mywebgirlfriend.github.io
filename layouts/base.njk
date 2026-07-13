@@ -88,7 +88,25 @@ herdam deste arquivo.
             {% endblock %}
 
         {% endblock %}
+{% if page.url != "/" %}
 
+<footer class="page-footer">
+
+    <hr>
+
+    <p>
+
+        <a href="/">
+
+            ← Back to Home
+
+        </a>
+
+    </p>
+
+</footer>
+
+{% endif %}
     </main>
 
 </div>
