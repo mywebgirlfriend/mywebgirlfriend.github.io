@@ -92,38 +92,60 @@ O layout base não deve conter:
 
 # blog.njk
 
-O arquivo:
+Arquivo:
 
 ```text
 layouts/blog.njk
 ```
 
-representa exclusivamente o layout utilizado pelos artigos do Blog.
+O `blog.njk` é o layout utilizado exclusivamente pelos artigos do Blog.
+
+É importante distinguir o layout dos artigos da página principal da seção Blog.
+
+A página:
+
+```text
+content/blog/index.njk
+```
+
+representa o índice do Blog.
+
+Já:
+
+```text
+content/blog/posts/*.md
+```
+
+representam os artigos individuais.
+
+Todos os artigos herdam automaticamente o `blog.njk`.
 
 ---
 
 ## Responsabilidades
 
-O layout do Blog é responsável por:
+O `blog.njk` é responsável por apresentar elementos comuns a todos os artigos, incluindo:
 
-* carregar o CSS específico do Blog;
-* renderizar um artigo;
-* apresentar o título;
-* apresentar o conteúdo do Markdown.
+* data de publicação;
+* título do artigo;
+* separador visual entre cabeçalho e conteúdo;
+* conteúdo do artigo;
+* navegação automática entre artigos (Previous / Next).
+
+Ele não deve conter lógica de listagem de artigos nem elementos específicos da página principal do Blog.
 
 ---
 
 ## O que não pertence ao blog.njk
 
-O layout do Blog não deve:
+Não pertencem ao `blog.njk`:
 
-* listar artigos;
-* gerar menus;
-* controlar a barra lateral;
-* decidir URLs;
-* controlar coleções.
+* a lista de artigos;
+* a barra lateral;
+* o botão "Back to Home";
+* elementos comuns a todas as páginas do site.
 
-Essas responsabilidades pertencem a outras partes da arquitetura.
+Esses elementos pertencem ao `base.njk` ou às páginas específicas da seção.
 
 ---
 
