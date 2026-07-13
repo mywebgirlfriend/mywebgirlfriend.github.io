@@ -12,12 +12,34 @@
 
 {% block pageContent %}
 
-<article class="blog-post">
+<p class="post-date">
 
-    <h1>{{ title }}</h1>
+    {{ page.date | date: "%Y-%m-%d" }}
+
+</p>
+
+<h1>
+
+    {{ title }}
+
+</h1>
+
+<hr>
+
+<article class="blog-post">
 
     {{ content | safe }}
 
 </article>
+
+<p>
+
+    <a href="/">
+
+        ← Back to Home
+
+    </a>
+
+</p>
 
 {% endblock %}
