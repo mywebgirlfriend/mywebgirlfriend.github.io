@@ -99,3 +99,15 @@ img {
     padding: 2rem;
 
 }
+
+.page-footer-divider {
+
+    border: none;
+
+    border-top: 1px solid #555;
+
+    opacity: .35;
+
+    margin: 2rem 0 1.5rem 0;
+
+}
