@@ -171,6 +171,23 @@ tags:
 
 também são herdadas automaticamente.
 
+# Navegação entre artigos
+
+A navegação entre artigos é gerada automaticamente.
+
+Cada artigo pode apresentar:
+
+* artigo anterior;
+* artigo seguinte.
+
+Esses links são calculados a partir da coleção do Blog.
+
+A página principal do Blog (`content/blog/index.njk`) não utiliza essa navegação.
+
+Ela existe apenas nos artigos individuais.
+
+Essa separação mantém o índice do Blog responsável apenas pela listagem das publicações, enquanto o `blog.njk` permanece responsável pela experiência de leitura de cada artigo.
+
 ---
 
 # posts.11tydata.js
