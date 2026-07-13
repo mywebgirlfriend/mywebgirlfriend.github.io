@@ -1,5 +1,5 @@
 ---
-title: 2026-07-12 meu primeiro post
+title: meu primeiro post
 date: 2026-07-12
 ---
 
