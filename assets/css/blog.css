@@ -89,15 +89,21 @@ h1 + hr {
 
 }
 
-.post-navigation-divider {
+.post-navigation-separator {
 
-    border: none;
-
-    border-top: 1px dashed #777;
-
-    opacity: .65;
+    height: 1px;
 
     margin: 2rem 0 1.5rem 0;
+
+    background-image: repeating-linear-gradient(
+        to right,
+        #777 0px,
+        #777 8px,
+        transparent 8px,
+        transparent 16px
+    );
+
+    opacity: .65;
 
 }
 
