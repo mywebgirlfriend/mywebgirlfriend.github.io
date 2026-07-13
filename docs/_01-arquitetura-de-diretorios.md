@@ -2,19 +2,17 @@
 
 **Arquivo:**
 
-```text
-docs/_01-arquitetura-de-diretorios.md
-```
+`docs/_01-arquitetura-de-diretorios.md`
 
 ---
 
 # Objetivo
 
-Este documento descreve a estrutura oficial de diretórios do projeto.
+Este documento descreve a arquitetura oficial de diretórios do projeto.
 
-Diferentemente da documentação cronológica, este documento representa sempre o estado atual da arquitetura.
+Diferentemente da documentação cronológica (`01-*.md`), este documento representa sempre o estado atual da estrutura do projeto.
 
-Sempre que a organização das pastas mudar, este documento deverá ser atualizado.
+Sempre que uma alteração arquitetural modificar a organização das pastas, este documento deverá ser atualizado.
 
 ---
 
@@ -33,6 +31,9 @@ Sempre que a organização das pastas mudar, este documento deverá ser atualiza
 │   └── videos/
 │
 ├── content/
+│   ├── _data/
+│   │   └── navigation.js
+│   │
 │   ├── index.md
 │   │
 │   ├── blog/
@@ -41,11 +42,17 @@ Sempre que a organização das pastas mudar, este documento deverá ser atualiza
 │   │       ├── posts.11tydata.js
 │   │       └── *.md
 │   │
-│   ├──disease-history/
+│   ├── disease-history/
+│   │   ├── disease-history.11tydata.json
+│   │   └── index.md
 │   │
 │   ├── links/
+│   │   ├── links.11tydata.json
+│   │   └── index.md
 │   │
 │   └── pics/
+│       ├── pics.11tydata.json
+│       └── index.md
 │
 ├── docs/
 │
@@ -64,39 +71,40 @@ Sempre que a organização das pastas mudar, este documento deverá ser atualiza
 
 ## .github/
 
-Contém toda a automação do projeto.
+Contém toda a infraestrutura de automação do projeto.
 
-Atualmente:
+Exemplos:
 
-* GitHub Actions
-* Deploy automático
+* GitHub Actions;
+* Workflows de Build;
+* Workflows de Deploy.
 
-Nenhum arquivo do site deve ser colocado aqui.
+Nenhum conteúdo do site deve ser colocado nesta pasta.
 
 ---
 
 ## assets/
 
-Contém arquivos estáticos.
+Contém todos os arquivos estáticos.
 
 Exemplos:
 
-* CSS
-* imagens
-* vídeos
-* ícones
+* folhas de estilo;
+* imagens;
+* ícones;
+* vídeos.
 
-Nenhum conteúdo textual do site deve ficar nesta pasta.
+Esses arquivos não representam conteúdo editorial.
 
 ---
 
 ## content/
 
-Contém todo o conteúdo publicado.
+É a principal pasta do projeto.
 
-É considerada a principal pasta do projeto.
+Todo conteúdo publicado nasce dentro dela.
 
-Todo novo conteúdo deve nascer aqui.
+Cada subdiretório representa uma seção do site.
 
 ---
 
@@ -104,17 +112,17 @@ Todo novo conteúdo deve nascer aqui.
 
 Contém exclusivamente layouts reutilizáveis.
 
-Nenhuma página publicada deve existir nesta pasta.
+Layouts definem estrutura visual.
 
-Layouts apenas definem estrutura visual.
+Eles não armazenam conteúdo.
 
 ---
 
 ## docs/
 
-Contém toda a documentação do projeto.
+Contém toda a documentação técnica do projeto.
 
-É dividida em duas categorias:
+Esta pasta é dividida em duas categorias.
 
 ### Documentação histórica
 
@@ -124,9 +132,9 @@ Arquivos:
 01-*.md
 ```
 
-Registram a construção do projeto passo a passo.
+Descrevem como o projeto foi construído.
 
-Nunca mudam de objetivo.
+Esses documentos registram a evolução do projeto e não devem perder seu contexto histórico.
 
 ---
 
@@ -138,18 +146,18 @@ Arquivos:
 _01-*.md
 ```
 
-Descrevem a arquitetura atual.
+Descrevem o estado atual da arquitetura.
 
-São atualizados conforme o projeto evolui.
+Sempre que uma convenção permanente mudar, esses documentos deverão ser atualizados.
 
 ---
 
 # Estrutura da pasta content
 
-```text
-content/
+## Página inicial
 
-index.md
+```text
+content/index.md
 ```
 
 Representa:
@@ -158,7 +166,11 @@ Representa:
 /
 ```
 
+É a página inicial do site.
+
 ---
+
+## Blog
 
 ```text
 content/blog/
@@ -170,108 +182,113 @@ Representa:
 /blog/
 ```
 
-Esta pasta contém apenas infraestrutura do Blog.
+Esta pasta contém apenas a infraestrutura da seção Blog.
 
 Ela não contém artigos.
 
+Sua principal responsabilidade é apresentar automaticamente a lista de publicações.
+
 ---
+
+## Artigos do Blog
 
 ```text
 content/blog/posts/
 ```
 
-Representa todos os artigos do Blog.
+Contém exclusivamente artigos.
 
-Cada arquivo Markdown existente nesta pasta gera automaticamente uma página do site.
+Cada arquivo Markdown existente nesta pasta gera automaticamente uma página do Blog.
 
----
-
-# Estrutura dos artigos
-
-Cada artigo corresponde exatamente a um arquivo Markdown.
-
-Exemplo:
-
-```text
-content/blog/posts/
-
-primeiro-post.md
-```
-
-↓
-
-gera automaticamente uma página do Blog.
-
----
-
-# Configuração compartilhada
-
-A pasta:
-
-```text
-content/blog/posts/
-```
-
-possui um:
+As configurações compartilhadas são centralizadas em:
 
 ```text
 posts.11tydata.js
 ```
 
-Esse arquivo aplica automaticamente configurações compartilhadas para todos os artigos.
-
-Isso evita repetição de código.
-
 ---
 
-# Separação entre índice e artigos
-
-A arquitetura faz uma distinção importante.
+## Disease History
 
 ```text
-content/blog/index.njk
+content/disease-history/
 ```
 
-não é um artigo.
-
-Sua única responsabilidade é listar artigos.
-
----
-
-Enquanto:
+Representa:
 
 ```text
-content/blog/posts/*.md
+/disease-history/
 ```
 
-representam artigos individuais.
+Esta seção contém a documentação permanente relacionada ao histórico da doença.
 
-Essa separação evita conflitos de configuração e simplifica a manutenção.
+Seu objetivo é reunir informações que não possuem natureza cronológica, como:
 
----
+* exames;
+* laudos médicos;
+* exames de imagem;
+* resultados laboratoriais;
+* histórico clínico;
+* tratamentos realizados;
+* documentação médica de apoio.
 
-# Estrutura dos layouts
-
-Atualmente existem dois layouts.
-
-## base.njk
-
-Responsável por:
-
-* HTML base
-* sidebar
-* CSS global
-* estrutura comum
+Diferentemente do Blog, esta seção possui natureza documental. Seu conteúdo é organizado manualmente e representa uma referência permanente do projeto, não uma sequência de publicações por data.
 
 ---
 
-## blog.njk
+## Links
 
-Responsável por:
+```text
+content/links/
+```
 
-* layout dos artigos
-* CSS específico do Blog
-* renderização dos posts
+Representa:
+
+```text
+/links/
+```
+
+Esta seção reúne referências externas organizadas manualmente.
+
+Ela não utiliza coleção cronológica.
+
+---
+
+## Pics
+
+```text
+content/pics/
+```
+
+Representa:
+
+```text
+/pics/
+```
+
+Esta seção concentra conteúdo visual do projeto.
+
+Assim como as demais seções documentais, não utiliza coleção cronológica.
+
+---
+
+## _data
+
+```text
+content/_data/
+```
+
+Contém dados compartilhados pelo site.
+
+Atualmente armazena:
+
+```text
+navigation.js
+```
+
+que define toda a estrutura do menu lateral.
+
+Novos dados globais deverão ser adicionados nesta pasta.
 
 ---
 
@@ -280,7 +297,7 @@ Responsável por:
 O fluxo oficial de publicação é:
 
 ```text
-Criar arquivo Markdown
+Novo arquivo Markdown
 
 ↓
 
@@ -307,26 +324,49 @@ GitHub Pages
 Site publicado
 ```
 
-Nenhum outro arquivo deve precisar ser alterado para publicar um artigo.
+---
+
+# Organização do projeto
+
+A arquitetura procura separar claramente quatro responsabilidades.
+
+```text
+Conteúdo
+
+↓
+
+Configuração
+
+↓
+
+Layout
+
+↓
+
+Arquivos estáticos
+```
+
+Cada responsabilidade possui sua própria pasta.
 
 ---
 
 # Boas práticas
 
-* Um arquivo Markdown representa exatamente um conteúdo publicado.
-* Cada seção possui responsabilidade única.
-* Separar infraestrutura de conteúdo.
-* Centralizar configurações compartilhadas.
-* Reutilizar layouts.
+* Cada pasta possui apenas uma responsabilidade.
+* Conteúdo permanece em `content/`.
+* Layouts permanecem em `layouts/`.
+* Arquivos estáticos permanecem em `assets/`.
+* Configurações compartilhadas permanecem em `_data/`.
+* Configurações específicas de uma pasta utilizam `*.11tydata`.
 
 ---
 
 # Más práticas
 
-* Misturar artigos com arquivos de infraestrutura.
+* Misturar infraestrutura e conteúdo.
 * Duplicar configurações.
-* Criar exceções permanentes na arquitetura.
-* Colocar arquivos estáticos dentro de `content/`.
+* Colocar artigos fora de `content/blog/posts/`.
+* Editar manualmente arquivos gerados em `docs/`.
 
 ---
 
@@ -342,25 +382,39 @@ Todo conteúdo publicado nasce dentro de `content/`.
 
 A pasta `blog/` contém infraestrutura.
 
-Os artigos ficam em `blog/posts/`.
+Os artigos pertencem exclusivamente à pasta `blog/posts/`.
 
 ---
 
 ## Regra nº 3
 
-Layouts nunca contêm conteúdo.
+As seções documentais utilizam um único `index.md`.
 
-Conteúdo nunca define estrutura visual.
+Não possuem coleção cronológica.
 
 ---
 
 ## Regra nº 4
 
-Arquivos estáticos permanecem em `assets/`.
+O menu lateral é gerado automaticamente a partir de:
+
+```text
+content/_data/navigation.js
+```
+
+Nenhum item do menu deve ser escrito diretamente em `layouts/base.njk`.
 
 ---
 
 ## Regra nº 5
+
+Layouts nunca armazenam conteúdo.
+
+Conteúdo nunca define estrutura visual.
+
+---
+
+## Regra nº 6
 
 A documentação histórica e a documentação de referência evoluem de forma independente.
 
@@ -368,18 +422,18 @@ A documentação histórica e a documentação de referência evoluem de forma i
 
 # Estado atual
 
-Esta estrutura representa a arquitetura oficial do projeto.
+Este documento representa a arquitetura oficial do projeto.
 
-Qualquer alteração significativa deverá atualizar este documento.
+Toda alteração estrutural deverá atualizar este arquivo.
 
 ---
 
 # Referências
 
-Documentação histórica relacionada:
+Documentação relacionada:
 
-* `03-layout-base.md`
-* `07-colecao-blog.md`
-* `08-configuracao-da-secao-blog.md`
-* `09-primeiro-post-e-refinamento-da-arquitetura-do-blog.md`
-* `10-urls-automaticas-do-blog.md`
+* `_02-convencoes-do-projeto.md`
+* `_03-padroes-de-layout.md`
+* `_04-fluxo-de-publicacao.md`
+* `_05-github-actions.md`
+* `_06-estrutura-do-blog.md`
