@@ -18,5 +18,9 @@ module.exports = [
     {
         title: "Pics",
         url: "/pics/"
+    },
+    {
+        title: "Rifas e sorteios",
+        url: "/rifas-e-sorteios/"
     }
 ];
