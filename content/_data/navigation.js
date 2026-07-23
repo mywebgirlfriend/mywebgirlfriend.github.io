@@ -20,7 +20,15 @@ module.exports = [
         url: "/pics/"
     },
     {
-        title: "Rifas e sorteios",
-        url: "/rifas-e-sorteios/"
-    }
+        title: "Doações",
+        url: "/doacoes/"
+    },
+    {
+        title: "Rifas",
+        url: "/rifas/"
+    },
+    {
+        title: "Sorteios",
+        url: "/sorteios/"
+    },
 ];
