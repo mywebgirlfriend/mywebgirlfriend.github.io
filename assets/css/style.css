@@ -59,7 +59,7 @@ main {
 .sidebar {
     width: 220px;
     padding-top: 2rem;
-    padding-right: 0.75rem;
+    padding-right: 1rem;
     padding-bottom: 2rem;
     padding-left: 2rem;
     flex-shrink: 0;
