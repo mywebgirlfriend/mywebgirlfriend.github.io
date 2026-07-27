@@ -56,13 +56,13 @@ title: links
 <details>
 <summary>bots</summary>
 
-- ~~@zolpidembot~~ *(banido)*
+- [~~@zolpidembot~~](@) *(banido)*
 
 </details>
 
 ---
 
 <h2 class="network-title">Last.fm</h2>
-
+<details>
 - [@minhadona](@)
 </details>
