@@ -38,7 +38,7 @@ module.exports = [
         url: "/how-to-help/"
     },
     {
-        title: "wishlists",
+        title: "Wishlists",
         url:"/wishlists/"
     }
     
