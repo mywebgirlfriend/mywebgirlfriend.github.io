@@ -1,4 +1,6 @@
 module.exports = [
+
+    
     {
         title: "Home",
         url: "/"
@@ -28,11 +30,16 @@ module.exports = [
         url: "/rifas/"
     },
     {
-        title: "Sorteios",
+        title: "Sorteios (PT-BR)",
         url: "/sorteios/"
     },
     {
         title: "How to help",
         url: "/how-to-help/"
+    },
+    {
+        title: "wishlists",
+        url:"/wishlists/"
     }
+    
 ];
