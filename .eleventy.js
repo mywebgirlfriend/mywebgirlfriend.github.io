@@ -37,22 +37,19 @@ module.exports = function (eleventyConfig) {
      *
      * Exemplo de saída:
      *
-     * Thu, Feb 20, 2020 - GMT-03:00
+     * 27/07/2026
      *
      */
     eleventyConfig.addFilter("formatPostDate", function (date) {
 
-        const formatter = new Intl.DateTimeFormat("en-US", {
+        return new Intl.DateTimeFormat("pt-BR", {
 
-            weekday: "short",
-            month: "short",
-            day: "numeric",
+            day: "2-digit",
+            month: "2-digit",
             year: "numeric",
             timeZone: "America/Sao_Paulo"
 
-        });
-
-        return `${formatter.format(date)} - GMT-03:00`;
+        }).format(date);
 
     });
 
