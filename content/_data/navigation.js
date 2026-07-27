@@ -32,7 +32,7 @@ module.exports = [
         url: "/sorteios/"
     },
     {
-        title: "How to help"
+        title: "How to help",
         url: "/how-to-help/"
     }
 ];
