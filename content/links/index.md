@@ -1,15 +1,13 @@
 ---
 layout: base.njk
-
 title: links
 ---
 
----
-layout: base.njk
-title: Links
----
+
+
 
 ## Instagram
+<h2 class="network-title">Instagram</h2>
 
 <details>
 <summary>pessoais</summary>
@@ -49,7 +47,7 @@ title: Links
 
 ---
 
-## Twitter / X
+<h2 class="network-title">Twitter / X</h2>
 
 <details>
 <summary>pessoais</summary>
@@ -68,7 +66,7 @@ title: Links
 
 ---
 
-## Last.fm
+<h2 class="network-title">Last.fm</h2>
 
 - [@minhadona](@)
 </details>
