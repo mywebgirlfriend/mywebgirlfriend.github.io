@@ -111,3 +111,27 @@ img {
     margin: 1.75rem 0;
 
 }
+
+/* Categorias da página Links */
+
+.link-category {
+
+    color: /* rosa */;
+
+    font-weight: bold;
+
+}
+
+details {
+
+    margin-bottom: 1rem;
+
+}
+
+summary {
+
+    cursor: pointer;
+
+    user-select: none;
+
+}
