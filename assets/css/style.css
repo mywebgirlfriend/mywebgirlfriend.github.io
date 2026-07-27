@@ -38,17 +38,37 @@ main {
 
 }
 
+/* ==============================
+   Links
+   ============================== */
+
 a {
 
     color: #EDA8F7;
+    text-decoration: none;
 
 }
 
 a:visited {
 
-    color: #ff69b4;
+    color: #9400D3;
 
 }
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+a:active {
+
+    color: #9400D3;
+
+}
+
+
+
 
 img {
 
