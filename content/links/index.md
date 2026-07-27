@@ -3,10 +3,6 @@ layout: base.njk
 title: links
 ---
 
-
-
-
-## Instagram
 <h2 class="network-title">Instagram</h2>
 
 <details>
