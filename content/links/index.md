@@ -4,7 +4,32 @@ layout: base.njk
 title: links
 ---
 
-# my links and educational content/youtube channels etc
+---
+layout: base.njk
+title: Links
+---
 
-Useful references will be published here.
-Content coming soon.
+<details>
+<summary><span class="link-category">Programação</span></summary>
+
+- [GitHub](@)
+- [Eleventy](@)
+- [Markdown](@)
+
+</details>
+
+<details>
+<summary><span class="link-category">Livros</span></summary>
+
+- [Literatura Russa](@)
+- [Segunda Guerra Mundial](@)
+
+</details>
+
+<details>
+<summary><span class="link-category">Ferramentas</span></summary>
+
+- [Working Copy](@)
+- [Visual Studio Code](@)
+
+</details>
