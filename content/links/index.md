@@ -10,36 +10,36 @@ title: links
 <details>
 <summary><span class="network-category">pessoais</span></summary>
   
-- [@mywebgirlfriend](instagram.com/mywebgirlfriend)
-- [@destro_gabriella](instagram.com/destro_gabriella)
-- [@walleirbag](instagram.com/walleirbag)
-- [~~@minhadona~~](instagram.com/minhadona) *(banido)*
+- [@mywebgirlfriend](https://instagram.com/mywebgirlfriend)
+- [@destro_gabriella](https://instagram.com/destro_gabriella)
+- [@walleirbag](https://instagram.com/walleirbag)
+- [~~@minhadona~~](https://instagram.com/minhadona) *(banido)*
 
 </details>
 <!-- =========== educativos/informativos =========== -->
 <details>
 <summary><span class="network-category">educativos/informativos</span></summary>
 
-- [@this_could_be_data](instagram.com/this_could_be_data)
-- [@mixedhatings](instagram.com/mixedhatings)
-- [@solissolennis](instagram.com/solissolennis)
-- [@thebadartcookbook](instagram.com/thebadartcookbook)
-- [@italia_intatta](instagram.com/italia_intatta)
+- [@this_could_be_data](https://instagram.com/this_could_be_data)
+- [@mixedhatings](https://instagram.com/mixedhatings)
+- [@solissolennis](https://instagram.com/solissolennis)
+- [@thebadartcookbook](https://instagram.com/thebadartcookbook)
+- [@italia_intatta](https://instagram.com/italia_intatta)
 
 </details>
 <!-- =========== setoriais/fakes =========== -->
 <details>
 <summary><span class="network-category">setoriais/fakes</span></summary>
 
-- [@minhasegundamao](instagram.com/minhasegundamao)
-- [@meus4donos](instagram.com/meus4donos)
-- [@redemption_vacation](instagram.com/redemption_vacation)
-- [@cozinhandocomgabriella](instagram.com/cozinhandocomgabriella)
-- [@crackedcattos](instagram.com/crackedcattos)
-- [@military.search.butfrenchfocus](instagram.com/military.search.butfrenchfocus)
-- [@hemitartaratodezolpidem](instagram.com/hemitartaratodezolpidem)
-- [@perfis_comerciais.minhadona](instagram.com/perfis_comerciais.minhadona)
-- [@jundiai.minhadona](instagram.com/jundiai.minhadona)
+- [@minhasegundamao](https://instagram.com/minhasegundamao)
+- [@meus4donos](https://instagram.com/meus4donos)
+- [@redemption_vacation](https://instagram.com/redemption_vacation)
+- [@cozinhandocomgabriella](https://instagram.com/cozinhandocomgabriella)
+- [@crackedcattos](https://instagram.com/crackedcattos)
+- [@military.search.butfrenchfocus](https://instagram.com/military.search.butfrenchfocus)
+- [@hemitartaratodezolpidem](https://instagram.com/hemitartaratodezolpidem)
+- [@perfis_comerciais.minhadona](https://instagram.com/perfis_comerciais.minhadona)
+- [@jundiai.minhadona](https://instagram.com/jundiai.minhadona)
 
 </details>
 
@@ -51,8 +51,8 @@ title: links
 <details>
 <summary><span class="network-category">pessoais</span></summary>
 
-- [@mywebgirlfriend](twitter.com/mywebgirlfriend)
-- [@minhadona](twitter.com/minhadona)
+- [@mywebgirlfriend](https://twitter.com/mywebgirlfriend)
+- [@minhadona](https://twitter.com/minhadona)
 
 </details>
 
@@ -60,7 +60,7 @@ title: links
 <details>
 <summary><span class="network-category">bots</span></summary>
 
-- [~~@zolpidembot~~](twitter.com/zolpidembot) *(banido)*
+- [~~@zolpidembot~~](https://twitter.com/zolpidembot) *(banido)*
 
 </details>
 
