@@ -1,6 +1,6 @@
 ---
 title: wishlists
-layout: base.jkl
+layout: base.njk
 ---
 
 amazon
