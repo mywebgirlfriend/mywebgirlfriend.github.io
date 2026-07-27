@@ -133,6 +133,7 @@ summary {
     cursor: pointer;
 
     user-select: none;
+    
 
 }
 
@@ -142,6 +143,7 @@ summary {
 
 .network-title {
 
-    color: #FFE4E1;
+    /* color: #FFE4E1; */
+    color: #CD5C5C; 
 
 }
