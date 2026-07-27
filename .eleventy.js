@@ -1,27 +1,7 @@
 module.exports = function (eleventyConfig) {
 
-    /*
-     * Copia toda a pasta assets para o site final.
-     * Inclui CSS, imagens, ícones e vídeos.
-     */
     eleventyConfig.addPassthroughCopy("assets");
 
-    /*
-     * ==========================================================
-     * Coleção oficial do Blog
-     * ==========================================================
-     *
-     * Todo arquivo que possuir:
-     *
-     * tags:
-     *   - blog
-     *
-     * fará parte automaticamente da coleção "blog".
-     *
-     * A coleção é ordenada do mais recente para o mais antigo.
-     *
-     * Nenhuma outra seção do site utiliza coleção neste momento.
-     */
     eleventyConfig.addCollection("blog", function (collectionApi) {
 
         return collectionApi
@@ -30,17 +10,23 @@ module.exports = function (eleventyConfig) {
 
     });
 
-    /*
-     * ==========================================================
-     * Filtro para formatação das datas dos artigos
-     * ==========================================================
-     *
-     * Exemplo de saída:
-     *
-     * 27/07/2026
-     *
-     */
     eleventyConfig.addFilter("formatPostDate", function (date) {
+
+        const formatter = new Intl.DateTimeFormat("en-US", {
+
+            weekday: "short",
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+            timeZone: "America/Sao_Paulo"
+
+        });
+
+        return `${formatter.format(date)} - São Paulo`;
+
+    });
+
+    eleventyConfig.addFilter("formatPostDateBR", function (date) {
 
         return new Intl.DateTimeFormat("pt-BR", {
 
@@ -55,31 +41,16 @@ module.exports = function (eleventyConfig) {
 
     return {
 
-        /*
-         * Estrutura principal do projeto.
-         */
         dir: {
 
-            /*
-             * Conteúdo do site.
-             */
             input: "content",
 
-            /*
-             * Layouts compartilhados.
-             */
             includes: "../layouts",
 
-            /*
-             * Site final gerado pelo Eleventy.
-             */
             output: "docs"
 
         },
 
-        /*
-         * Engines utilizadas pelo projeto.
-         */
         markdownTemplateEngine: "njk",
 
         htmlTemplateEngine: "njk",
