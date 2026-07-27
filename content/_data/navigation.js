@@ -31,4 +31,8 @@ module.exports = [
         title: "Sorteios",
         url: "/sorteios/"
     },
+    {
+        title: "How to help"
+        url: "/how-to-help/"
+    }
 ];
