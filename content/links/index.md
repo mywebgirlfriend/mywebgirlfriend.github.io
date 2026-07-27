@@ -9,8 +9,9 @@ layout: base.njk
 title: Links
 ---
 
+
 <details>
-<summary><span class="link-category">Programação</span></summary>
+<summary>Programação</summary>
 
 - [GitHub](@)
 - [Eleventy](@)
@@ -19,17 +20,9 @@ title: Links
 </details>
 
 <details>
-<summary><span class="link-category">Livros</span></summary>
+<summary>Livros</summary>
 
 - [Literatura Russa](@)
 - [Segunda Guerra Mundial](@)
-
-</details>
-
-<details>
-<summary><span class="link-category">Ferramentas</span></summary>
-
-- [Working Copy](@)
-- [Visual Studio Code](@)
 
 </details>
