@@ -55,15 +55,12 @@ main {
 /* ==========================================================================
    MENU LATERAL
    ========================================================================== */
-
 .sidebar {
-    width: 220px;
-    padding-top: 2rem;
-    padding-right: 1rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
+    width: fit-content;
+    max-width: 300px;
+    padding: 2rem 16px 2rem 2rem;
     flex-shrink: 0;
-    border-right: 1px solid #5b615a;
+    border-right: 1px solid var(--gray-middle);
 }
 
 .sidebar ul {
@@ -77,8 +74,12 @@ main {
 }
 
 .sidebar a {
-    white-space: nowrap;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
 }
+
+
 /* ==========================================================================
    LINKS
    ========================================================================== */
@@ -161,28 +162,13 @@ summary {
 /* --------------------------------------------------------------------------
    Cores para formatar textos
    -------------------------------------------------------------------------- */
-.text-red {
-    color: #D32F2F;
-}
-
-.green-hacker{
-   color: #44d42a;
-}
-
-.gray-middle{
-   color: #5b615a;
-}
-
-.royal-blue{
-   color: #0d24b8;
-}
-
-.pastel-rose{
-   color: #8d60a3;
-}
-
-.black{
-   color: #000000; 
+:root {
+--text-red: #D32F2F;
+--green-hacker: #44d42a;
+--gray-middle: #5b615a;
+--royal-blue: #0d24b8;
+--pastel-rose: #8d60a3;
+--black: #000000; 
 }
 
 
