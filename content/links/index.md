@@ -4,7 +4,7 @@ title: links
 ---
 
 <!-- ============================== instagram ==============================  -->
-<h2 class="network-title">Instagram</h2>
+<h2 class="network-title">instagram</h2>
 
 <!-- =========== pessoais =========== -->
 <details>
@@ -46,7 +46,7 @@ title: links
 ---
 <!-- ============================== twitter ==============================  -->
 
-<h2 class="network-title">Twitter / X</h2>
+<h2 class="network-title">twitter / X</h2>
 
 <details>
 <summary>pessoais</summary>
@@ -65,10 +65,16 @@ title: links
 
 ---
 <!-- ============================== lastfm ==============================  -->
-<h2 class="network-title">Last.fm</h2>
+<h2 class="network-title">last.fm</h2>
 
 <details>
-- [@minhadona](@)
+- [@minhadona](https://www.last.fm/user/minhadona/)
 </details>
 
+<!-- ============================== filmow ==============================  -->
 
+<h2 class="network-title">filmow</h2>
+
+<details>
+- [@minhadona](http://filmow.com/usuario/minhadona/)
+</details>
