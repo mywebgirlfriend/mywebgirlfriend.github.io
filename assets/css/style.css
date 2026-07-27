@@ -143,7 +143,17 @@ summary {
 
 .network-title {
 
-    /* color: #FFE4E1; */
-    color: #CD5C5C; 
+    color: #FFE4E1;
+     
+
+}
+
+/* ==========================================================================
+   CATEGORIAS DAS REDES SOCIAIS
+   ========================================================================== */
+
+.network-category {
+
+    color: #CD5C5C;
 
 }
