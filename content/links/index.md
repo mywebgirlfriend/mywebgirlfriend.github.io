@@ -49,12 +49,13 @@ title: links
 <h2 class="network-title">twitter / X</h2>
 
 <details>
-<summary>pessoais</summary>
+<summary><span class="network-category">pessoais</span></summary>
 
 - [@mywebgirlfriend](@)
 - [@minhadona](@)
 
 </details>
+
 <!-- =========== bots =========== -->
 <details>
 <summary><span class="network-category">bots</span></summary>
@@ -68,7 +69,10 @@ title: links
 <h2 class="network-title">last.fm</h2>
 
 <details>
+<summary><span class="network-category">minhadona</span></summary>
+
 - [@minhadona](https://www.last.fm/user/minhadona/)
+
 </details>
 
 <!-- ============================== filmow ==============================  -->
@@ -76,5 +80,8 @@ title: links
 <h2 class="network-title">filmow</h2>
 
 <details>
+<summary><span class="network-category">minhadona</span></summary>
+
 - [@minhadona](http://filmow.com/usuario/minhadona/)
+
 </details>
