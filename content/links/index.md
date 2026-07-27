@@ -13,7 +13,7 @@ title: links
 - [@mywebgirlfriend](@)
 - [@destro_gabriella](@)
 - [@walleirbag](@)
-- ~~@minhadona~~ *(banido)*
+- [~~@minhadona~~](@) *(banido)*
 
 </details>
 <!-- =========== educativos/informativos =========== -->
