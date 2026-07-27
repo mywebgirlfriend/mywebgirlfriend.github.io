@@ -60,6 +60,7 @@ main {
     width: 220px;
     padding: 2rem;
     flex-shrink: 0;
+    border: 2px solid red;
 }
 
 .sidebar ul {
