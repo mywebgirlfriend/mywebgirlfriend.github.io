@@ -60,7 +60,7 @@ title: links
 <details>
 <summary><span class="network-category">bots</span></summary>
 
-- [~~@zolpidembot~~](@) *(banido)*
+- [~~@zolpidembot~~](twitter.com/zolpidembot) *(banido)*
 
 </details>
 
