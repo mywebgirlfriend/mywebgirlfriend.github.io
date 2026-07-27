@@ -6,15 +6,15 @@ module.exports = [
         url: "/"
     },
     {
-        title: "Blog (ALL LANGS I SPEAK)",
+        title: "Blog (notepad)",
         url: "/blog/"
     },
     {
-        title: "Disease (PT-BR/EN-US)",
+        title: "Illness/Saúde",
         url: "/disease-history/"
     },
     {
-        title: "Links (PT-BR)",
+        title: "Links",
         url: "/links/"
     },
     {
@@ -22,19 +22,19 @@ module.exports = [
         url: "/pics/"
     },
     {
-        title: "Doações (PT-BR/EN-US)",
+        title: "Doações/Donations",
         url: "/doacoes/"
     },
     {
-        title: "Rifas (PT-BR)",
+        title: "Rifas",
         url: "/rifas/"
     },
     {
-        title: "Sorteios (PT-BR)",
+        title: "Sorteios",
         url: "/sorteios/"
     },
     {
-        title: "How to help (PT-BR/EN-US)",
+        title: "How to help/Como ajudar",
         url: "/how-to-help/"
     },
     {
