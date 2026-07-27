@@ -1,6 +1,6 @@
 ---
 title: donations/doações
-layout base.njk
+layout: base.njk
 ---
 
 ## PT-BR:
