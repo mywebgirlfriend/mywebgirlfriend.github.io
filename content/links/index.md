@@ -3,20 +3,22 @@ layout: base.njk
 title: links
 ---
 
+<!-- ============================== instagram ==============================  -->
 <h2 class="network-title">Instagram</h2>
 
+<!-- =========== pessoais =========== -->
 <details>
-<summary>pessoais</summary>
-
+<summary><span class="network-category">pessoais</span></summary>
+  
 - [@mywebgirlfriend](@)
 - [@destro_gabriella](@)
 - [@walleirbag](@)
 - ~~@minhadona~~ *(banido)*
 
 </details>
-
+<!-- =========== educativos/informativos =========== -->
 <details>
-<summary>educativos/informativos</summary>
+<summary><span class="network-category">educativos/informativos</span></summary>
 
 - [@this_could_be_data](@)
 - [@mixedhatings](@)
@@ -25,9 +27,9 @@ title: links
 - [@italiaintatta](@)
 
 </details>
-
+<!-- =========== setoriais/fakes =========== -->
 <details>
-<summary>setoriais/fakes</summary>
+<summary><span class="network-category">setoriais/fakes</span></summary>
 
 - [@minhasegundamao](@)
 - [@meus4donos](@)
@@ -42,6 +44,7 @@ title: links
 </details>
 
 ---
+<!-- ============================== twitter ==============================  -->
 
 <h2 class="network-title">Twitter / X</h2>
 
@@ -52,17 +55,20 @@ title: links
 - [@minhadona](@)
 
 </details>
-
+<!-- =========== bots =========== -->
 <details>
-<summary>bots</summary>
+<summary><span class="network-category">bots</span></summary>
 
 - [~~@zolpidembot~~](@) *(banido)*
 
 </details>
 
 ---
-
+<!-- ============================== lastfm ==============================  -->
 <h2 class="network-title">Last.fm</h2>
+
 <details>
 - [@minhadona](@)
 </details>
+
+
