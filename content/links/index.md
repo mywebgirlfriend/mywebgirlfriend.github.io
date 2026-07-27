@@ -10,36 +10,36 @@ title: links
 <details>
 <summary><span class="network-category">pessoais</span></summary>
   
-- [@mywebgirlfriend](@)
-- [@destro_gabriella](@)
-- [@walleirbag](@)
-- [~~@minhadona~~](@) *(banido)*
+- [@mywebgirlfriend](instagram.com/mywebgirlfriend)
+- [@destro_gabriella](instagram.com/destro_gabriella)
+- [@walleirbag](instagram.com/walleirbag)
+- [~~@minhadona~~](instagram.com/minhadona) *(banido)*
 
 </details>
 <!-- =========== educativos/informativos =========== -->
 <details>
 <summary><span class="network-category">educativos/informativos</span></summary>
 
-- [@this_could_be_data](@)
-- [@mixedhatings](@)
-- [@solissolennis](@)
-- [@thebadartcookbook](@)
-- [@italiaintatta](@)
+- [@this_could_be_data](instagram.com/this_could_be_data)
+- [@mixedhatings](instagram.com/mixedhatings)
+- [@solissolennis](instagram.com/solissolennis)
+- [@thebadartcookbook](instagram.com/thebadartcookbook)
+- [@italia_intatta](instagram.com/italia_intatta)
 
 </details>
 <!-- =========== setoriais/fakes =========== -->
 <details>
 <summary><span class="network-category">setoriais/fakes</span></summary>
 
-- [@minhasegundamao](@)
-- [@meus4donos](@)
-- [@redemption_vacation](@)
-- [@cozinhandocomgabriella](@)
-- [@crackedcattos](@)
-- [@military.search.butfrenchfocus](@)
-- [@hemitartaratodezolpidem](@)
-- [@perfis_comerciais.minhadona](@)
-- [@jundiai.minhadona](@)
+- [@minhasegundamao](instagram.com/minhasegundamao)
+- [@meus4donos](instagram.com/meus4donos)
+- [@redemption_vacation](instagram.com/redemption_vacation)
+- [@cozinhandocomgabriella](instagram.com/cozinhandocomgabriella)
+- [@crackedcattos](instagram.com/crackedcattos)
+- [@military.search.butfrenchfocus](instagram.com/military.search.butfrenchfocus)
+- [@hemitartaratodezolpidem](instagram.com/hemitartaratodezolpidem)
+- [@perfis_comerciais.minhadona](instagram.com/perfis_comerciais.minhadona)
+- [@jundiai.minhadona](instagram.com/jundiai.minhadona)
 
 </details>
 
@@ -51,8 +51,8 @@ title: links
 <details>
 <summary><span class="network-category">pessoais</span></summary>
 
-- [@mywebgirlfriend](@)
-- [@minhadona](@)
+- [@mywebgirlfriend](twitter.com/mywebgirlfriend)
+- [@minhadona](twitter.com/minhadona)
 
 </details>
 
