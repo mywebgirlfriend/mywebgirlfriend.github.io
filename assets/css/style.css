@@ -172,6 +172,14 @@ summary {
 --purple-pastel: #ad80b1; 
 }
 
+.rose-pastel-signature {
+    display: block;
+    text-align: left;
+    color: inherit;
+    margin-top: 0.5rem;
+    color: var(--purple-pastel);
+}
+
 /* --------------------------------------------------------------------------
    frase página inicial
    -------------------------------------------------------------------------- */
