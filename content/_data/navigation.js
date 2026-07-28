@@ -40,6 +40,10 @@ module.exports = [
     {
         title: "Wishlists",
         url:"/wishlists/"
+    },
+    {
+        title: "Everyone has a story to ~~t~~hell",
+        url:"/the-hell-journal/" 
     }
     
 ];
