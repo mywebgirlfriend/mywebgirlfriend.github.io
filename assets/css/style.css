@@ -175,23 +175,28 @@ summary {
 /* --------------------------------------------------------------------------
    frase página inicial
    -------------------------------------------------------------------------- */
-
+/* 
 .home-quote {
     color: var(--purple-pastel);
-    display: block;
     max-width: 50rem;
     margin: 4rem auto;
-
     padding: 0 2rem;
-
     text-align: center;
-
     font-size: 2rem;
-
     line-height: 1.8;
+} */
 
+.home-quote {
+
+    display: block;
+    color: var(--purple-pastel);
+    max-width: 50rem;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    text-align: justify;
+    font-size: 2rem;
+    line-height: 1.35;
     text-wrap: pretty;
-
 }
 /* --------------------------------------------------------------------------
    Custom classes to format blog posts
