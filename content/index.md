@@ -17,8 +17,9 @@ The purpose of this project is not only to publish content, but also to *documen
 Meanwhile, I also use it to learn a bit of front-end development (which I used to hate).
 
 <div class="verdana">
+<blockquote class="blockquote">
 This page is intentionally simple. One of my intentions is for it to serve as a reference so that anyone can easily verify whether a phone number, account, or profile really belongs to me, or even confirm whether I am literally still alive (my mother is in charge of updating this introduction if something happens to me. If I disappear from social media for too long, check here for official information).
-</div>
+</blockquote>
 
 So, please, consider this the <span class="rose-pastel-inline">official source</span> you can use to be sure it's me and not a **fake** or a **scammer** using my pictures to make money while I, myself, am simply trying to afford food.
 
