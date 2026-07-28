@@ -176,7 +176,7 @@ summary {
     display: block;
     text-align: left;
     color: inherit;
-    margin-top: 0.5rem;
+    margin-top: 0;
     color: var(--purple-pastel);
 }
 
@@ -205,6 +205,7 @@ summary {
     font-size: 19px;
     line-height: 1.35;
     text-wrap: pretty;
+    margin-bottom: 0.2rem;
 }
 /* --------------------------------------------------------------------------
    Custom classes to format blog posts
