@@ -177,7 +177,12 @@ summary {
     text-align: left;
     color: inherit;
     margin-top: 0;
-    color: var(--purple-pastel);
+    color: var(--pastel-rose);
+}
+
+.rose-pastel-inline {
+    display: inline;
+    color: var(--pastel-rose);
 }
 
 /* --------------------------------------------------------------------------
