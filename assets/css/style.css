@@ -5,11 +5,11 @@
 html {
     box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
     box-sizing: inherit;
-
 }
 
 /* ==========================================================================
@@ -55,6 +55,7 @@ main {
 /* ==========================================================================
    MENU LATERAL
    ========================================================================== */
+
 .sidebar {
     width: fit-content;
     max-width: 300px;
@@ -79,7 +80,6 @@ main {
     overflow-wrap: break-word;
 }
 
-
 /* ==========================================================================
    LINKS
    ========================================================================== */
@@ -99,7 +99,6 @@ a:hover {
 
 a:active {
     color: #9400D3;
-
 }
 
 /* ==========================================================================
@@ -133,88 +132,118 @@ details {
 summary {
     cursor: pointer;
     user-select: none;
-
 }
 
 /* ==========================================================================
-   PÁGINA "LINKS"
+   VARIÁVEIS
    ========================================================================== */
 
-/* --------------------------------------------------------------------------
-   Títulos das redes sociais
-   Ex.: Instagram, Twitter/X, Last.fm, Filmow
-   -------------------------------------------------------------------------- */
+:root {
+    --text-red: #D32F2F;
+    --green-hacker: #44d42a;
+    --gray-middle: #5b615a;
+    --royal-blue: #0d24b8;
+    --pastel-rose: #8d60a3;
+    --black: #000000;
+    --purple-pastel: #ad80b1;
+}
+
+/* ==========================================================================
+   CORES
+   ========================================================================== */
+
+.text-red {
+    color: var(--text-red);
+}
+
+.green-hacker {
+    color: var(--green-hacker);
+}
 
 .network-title {
     color: #FFE4E1;
 }
 
-/* --------------------------------------------------------------------------
-   Categorias das redes
-   Ex.: pessoais, bots, educativos...
-   -------------------------------------------------------------------------- */
-
 .network-category {
     color: #CD5C5C;
-}
-
-
-/* --------------------------------------------------------------------------
-   Cores para formatar textos
-   -------------------------------------------------------------------------- */
-:root {
---text-red: #D32F2F;
---green-hacker: #44d42a;
---gray-middle: #5b615a;
---royal-blue: #0d24b8;
---pastel-rose: #8d60a3;
---black: #000000; 
---purple-pastel: #ad80b1; 
 }
 
 .rose-pastel-signature {
     display: block;
     text-align: left;
-    color: inherit;
     margin-top: 0;
     color: var(--pastel-rose);
 }
 
 .rose-pastel-inline {
-    display: inline;
     color: var(--pastel-rose);
 }
 
-/* --------------------------------------------------------------------------
-   frase página inicial
-   -------------------------------------------------------------------------- */
-/* 
-.home-quote {
-    color: var(--purple-pastel);
-    max-width: 50rem;
-    margin: 4rem auto;
-    padding: 0 2rem;
-    text-align: center;
-    font-size: 2rem;
-    line-height: 1.8;
-} */
+/* ==========================================================================
+   FONTES
+   ========================================================================== */
+
+.courier {
+    font-family:
+        "Courier New",
+        Courier,
+        monospace;
+}
+
+.verdana {
+    font-family:
+        Verdana,
+        Geneva,
+        sans-serif;
+}
+
+.trebuchet {
+    font-family:
+        "Trebuchet MS",
+        Tahoma,
+        Geneva,
+        sans-serif;
+}
+
+.georgia {
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+}
+
+/* ==========================================================================
+   BLOCKQUOTE
+   ========================================================================== */
+
+.blockquote {
+    border-left: 3px solid var(--gray-middle);
+    padding-left: 1rem;
+    margin-left: 0;
+    font-style: italic;
+}
+
+/* ==========================================================================
+   FRASE DA PÁGINA INICIAL
+   ========================================================================== */
 
 .home-quote {
-
     display: block;
     color: var(--purple-pastel);
     max-width: 50rem;
     margin: 4rem auto;
+    margin-bottom: 0.2rem;
     padding: 0 2rem;
     text-align: justify;
     font-size: 19px;
     line-height: 1.35;
     text-wrap: pretty;
-    margin-bottom: 0.2rem;
 }
-/* --------------------------------------------------------------------------
-   Custom classes to format blog posts
- -------------------------------------------------------------------------- */
+
+/* ==========================================================================
+   CLASSES PERSONALIZADAS PARA POSTS DO BLOG
+   ========================================================================== */
+
 .text-justify {
     text-align: justify;
 }
