@@ -6,7 +6,7 @@ title: my web girlfriend
 ## Welcome
 
 <p class="home-quote">
-    Signore, benedici coloro che rispettano il mio tempo, che non me lo fanno sprecare e che danno valore a ogni secondo di questo tesoro inestimabile — al contempo così prezioso e così tormentoso — che è il tempo.
+    Signore, benedici quelli che rispettano il mio tempo, che non me lo fanno sprecare e che danno valore a ogni istante di questo tesoro inestimabile — al contempo così prezioso e così tormentoso e straziante — che è ogni secondo della mia esistenza.
 </p>
 
 (website is still currently under construction)
