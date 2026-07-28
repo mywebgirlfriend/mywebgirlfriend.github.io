@@ -1,5 +1,5 @@
 ---
-title: Post de teste
+title: post testando formatações
 date: 2026-07-28
 layout: blog.njk
 ---
