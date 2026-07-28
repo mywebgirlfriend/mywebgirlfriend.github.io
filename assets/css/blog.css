@@ -73,12 +73,14 @@
     font-family: Verdana, Geneva, sans-serif;
 }
 
-
+/* ================================================================
+                        datas e botões
+================================================================ */
 
 
 .post-date {
     font-size: 0.9rem;
-    color: #777;
+    color: var(--gray-middle);
     margin-bottom: 0.4rem;
     letter-spacing: 0.08em;
 }
