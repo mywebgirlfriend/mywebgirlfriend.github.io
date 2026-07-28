@@ -46,6 +46,9 @@ AstroPay provides me with an EUR IBAN, but it changes frequently, just like the 
 It has huge chances to change between we talk and you really transfer, confirm on the same day, same minute. 
 </details>
 
+#### general instructions:
+
+
 1) Never convert the money to BRL. Tell me your currency first. If I don't already have an account in that currency, I'll open one using one of my free multicurrency banks.
 2) Check the IBAN just a few minutes before sending the money. I'm not very lucky in life, so... it might change between the moment we confirm it and the moment you actually send the transfer.
 3) If you're Brazilian, **always** check that the PIX recipient's name matches mine before sending the money to make sure the key is correct.
