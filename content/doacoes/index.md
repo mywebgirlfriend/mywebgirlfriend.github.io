@@ -9,8 +9,16 @@ layout: base.njk
   
 
 ## ENG:
-high taxes to receive money, out of question: payoneer, stripe, buy me a coffee 
-> wise (never convert currency, send on your own currency because of the taxes, let me figure out how to decrease the taxes here, if possible, open and use _revolut_)
-  - wisetag: @gabriellad49
-open your account using my code so i can earn some comission after transactions above 300 eur from 3 people (**you earn one free-tax transfer using my link to open the account**) : https://wise.com.invite.ahphc/gabriellad49 
-- revolut: revolut.me/minhadona : you don't need a revolut account to pay me, but there will be taxes if you are not a not a revolut user, please open an account to send the donation you feel like.
+High taxes on receiving money make the following services completely **out of the question**: **Payoneer**, **Stripe**, and **Buy Me a Coffee**.
+
+> **Wise**: (never convert the original currency. Always send money in your own currency because of the taxes. Let me figure out how to minimize the taxes on my end, if possible. Please open an account to use _Revolut_ instead whenever you can.)
+- WiseTag: @gabriellad49
+
+PS: Open your WISE account <u>using my referral link</u> so I can earn a commission after **three different people** each complete transactions totaling more than **€300** (** and you'll also receive one fee-free international transfer by signing up through my referral link**):
+here it is: https://wise.com/invite/ahpc/gabriellad49
+
+- **Revolut**: revolut.me/minhadona  
+  You don't need a Revolut account to send me money, (ps same dynamic alert about the IBAN changing). If you don't have one account, additional fees may apply to wire directly.
+  If possible, please open a Revolut account before sending any donation. It's free and any cant really helps. 
+
+- **AstroPay**: provides me with an IBAN, but it changes frequently as well as the others, so please confirm the current IBAN with me immediately before making a bank transfer.
