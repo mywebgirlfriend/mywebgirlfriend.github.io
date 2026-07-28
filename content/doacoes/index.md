@@ -9,7 +9,8 @@ layout: base.njk
   
 
 ## ENG:
-High taxes on receiving money make the following services completely **out of the question**: **Payoneer**, **Stripe**, and **Buy Me a Coffee**.
+<span class="green-hacker"> High taxes</div> on receiving money make the following services completely **out of the question**: **Payoneer**, **Stripe**, and **Buy Me a Coffee**.
+<span class="green-hacker"> Taxes apply to basically any service, so please, read <u>carefully</u> the following instructions. 
 
 > **Wise**: (never convert the original currency. Always send money in your own currency because of the taxes. Let me figure out how to minimize the taxes on my end, if possible. Please open an account to use _Revolut_ instead whenever you can.)
 - WiseTag: @gabriellad49
