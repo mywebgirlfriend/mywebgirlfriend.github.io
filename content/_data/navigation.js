@@ -42,7 +42,7 @@ module.exports = [
         url:"/wishlists/"
     },
     {
-        title: "Everyone has a story to ~~t~~hell",
+        title: "Everyone has a story to hell",
         url:"/the-hell-journal/" 
     }
     
