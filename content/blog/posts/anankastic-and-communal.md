@@ -1,5 +1,4 @@
 ---
-layout: default
 title:  "anankastic and communal"
 date:   2025-06-22
 ---
