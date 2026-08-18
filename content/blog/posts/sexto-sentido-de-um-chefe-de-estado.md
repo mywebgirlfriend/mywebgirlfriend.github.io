@@ -12,13 +12,14 @@ Só você se nega a aceitar.
 <div class="text-justify">
 E quanto mais acha-se que alguém está amarrado ao passado, menos confia-se nessa pessoa para qualquer coisa: política, terrorismo, time, equipe, relações, é sempre muito difícil ter fé em quem está amarrado de cabeça para baixo. Não dá jogo, a cabeça da pessoa está sempre em qualquer lugar, menos no presente.
 </div>
+<div class="text-justify">
 Obrigada por, no dia 12 de fevereiro, me provar que durante o ano toda eu também não estava louca. Que o que eu via era o que as pessoas ao seu redor também vêem. Minha primeira impressão de você e minha última impressão de você. Desnecessário né? Podia ter parado como primeira impressão e morrido aí. Mas pelo menos a prova de que isso perdura e ler o que passa na cabeça das pessoas realmente me fez achar que eu pudesse estar exagerando. mas eu não estava.
 Bom, pelo menos antes de deixar este aqui que é o último post oficial, eu pude deixar um textão nada a ver antes para não causar encrenca desnecessária na hora.
 Fica aqui consolidado a PRIMEIRA e ÚLTIMA impressão que tive de você: e tal como um parasita morre sem seu hospedeiro.... (não tem continuação). 
 Que você comece a ter fé no que está investindo ao invés de ficar investindo pela metade e **não tenha medo de ir atrás da próxima,** senão só repetirá o ciclo de novo e de novo, o _mesmo medo que te prende no Brasil, naquele fim de mundo, medo de se jogar por inteiro, se joga pela metade esperando confirmações e confirmações..._ Se sua energia acabou com o relacionamento anterior, **assuma**, pare de negar, e pare de fazer os outros sofrerem, fique longe das pessoas que possam se interessar por você, não espere que alguém vá construir o relacionamento inteiro por você e largar tudo por você já que você gastou toda sua energia em algo que você sabia que não tinha futuro. 
 você fez uma escolha, mas ainda há outras a serem feitas. 
+</div>
 <div class="text-justify">
-
 <img src="/assets/images/hug_day_12_feb_2024_shows_all_available_faith_during_all_that_old_time.jpg" width="640" height="360">
 </div>
 <div class="text-justify">
