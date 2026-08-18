@@ -3,7 +3,7 @@ title:  "o sexto sentido de um chefe de estado"
 date:   2025-02-25
 ---
 
-## se você não se livrar do seu passado, seu presente será sempre infeliz e seu futuro estará sempre em jogo.
+#### se você não se livrar do seu passado, seu presente será sempre infeliz e seu futuro estará sempre em jogo.
 <div class="text-justify">
 Um ser humano qualquer crescido podia ver o mesmo que eu via, inclusive sua família pode ver. 
 Pessoas que você odeia e pessoas que você admira sempre verão. Jussara vê. Qualquer morador desta cidade vê. 
