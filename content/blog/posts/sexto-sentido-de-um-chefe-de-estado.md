@@ -21,7 +21,7 @@ Obrigada por, no dia 12 de fevereiro, me provar que durante o ano toda eu també
 <div class="text-justify">
 Bom, pelo menos antes de deixar este aqui que é o último post oficial, eu pude deixar um textão nada a ver antes para não causar encrenca desnecessária na hora.
 Fica aqui consolidado a PRIMEIRA e ÚLTIMA impressão que tive de você: e tal como um parasita morre sem seu hospedeiro.... (não tem continuação). 
-Que você comece a ter fé no que está investindo ao invés de ficar investindo pela metade e **não tenha medo de ir atrás da próxima,** senão só repetirá o ciclo de novo e de novo, o _mesmo medo que te prende no Brasil, naquele fim de mundo, medo de se jogar por inteiro, se joga pela metade esperando confirmações e confirmações..._ Se sua energia acabou com o relacionamento anterior, **assuma**, pare de negar, e pare de fazer os outros sofrerem, fique longe das pessoas que possam se interessar por você, não espere que alguém vá construir o relacionamento inteiro por você e largar tudo por você já que você gastou toda sua energia em algo que você sabia que não tinha futuro. 
+Que você comece a ter fé no que está investindo ao invés de ficar investindo pela metade e *não tenha medo de ir atrás da próxima,* senão só repetirá o ciclo de novo e de novo, o _mesmo medo que te prende no Brasil, naquele fim de mundo, medo de se jogar por inteiro, se joga pela metade esperando confirmações e confirmações... _Se sua energia acabou com o relacionamento anterior, *assuma*, pare de negar, e pare de fazer os outros sofrerem, fique longe das pessoas que possam se interessar por você, não espere que alguém vá construir o relacionamento inteiro por você e largar tudo por você já que você gastou toda sua energia em algo que você sabia que não tinha futuro. 
 você fez uma escolha, mas ainda há outras a serem feitas. 
 </div>
 <div class="text-justify">
@@ -40,4 +40,4 @@ só desmutar o vídeo para assistir o meme da sua vida:
 </div>
 <center><video src="/assets/videos/jussara_s_2nd_mom_wishes_you_a_happy_marriage.mp4" width="500" controls title="clock" autoplay muted></video></center>
 
---- GB (Feb/2025)
+—-- GB (Feb/2025)
