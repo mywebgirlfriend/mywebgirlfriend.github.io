@@ -52,11 +52,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis und
 ## Misturando estilos
 
 Texto normal.
+*um asterisco*  
+**dois asteriscos**  
 
 <div class="text-justify-left">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Integer at velit sed nisl tincidunt ultricies. Cras dignissim libero vel justo faucibus, sed pharetra massa posuere.
-
+*um asterisco dentro de um div*  
+**dois asteriscos dentro de um div**  
 </div>
 
 Texto normal novamente.
