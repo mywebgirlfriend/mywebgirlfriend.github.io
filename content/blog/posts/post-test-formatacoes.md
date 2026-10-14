@@ -51,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis und
 
 ## Misturando estilos
 
-Texto normal.
+Texto normal.  
 *um asterisco*  
 **dois asteriscos**  
 
